@@ -1,0 +1,101 @@
+section{
+    width: 1300px;
+    margin: auto;
+}
+
+.titulo{
+    color: #D94848;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 35px;
+}
+
+.numeros{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #707070;
+    margin-top: 30px;
+    border-bottom: none;
+}
+
+.numeros div{
+    width: 100px;
+    height: 100px;
+    background-color: #310F40;
+    margin: 22px;
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.casillas_2{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid #707070;
+    border-top: none;
+}
+
+.casillas_2 div{
+    width: 100px;
+    height: 100px;
+    background-color: #310F40;
+    margin: 22px ;
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.casillas_3{
+    width: 650px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #707070;
+    margin-top: 25px;
+    border-right: none;
+}
+
+.casillas_3 div{
+    width: 600px;
+    height: 100px;
+    background-color: #9AD2D9;
+    margin: 15px;
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.casillas_4{
+    width: 650px;
+    height: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-left: none;
+    border: 1px solid #707070;
+   
+   
+}
+
+.casillas_4 div{
+    width: 600px;
+    height: 100px;
+    margin: 15px ;
+    color: white;
+    background-color: #D9644A;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.separacion{
+    flex-direction: center;
+    display: flex;
+    }
